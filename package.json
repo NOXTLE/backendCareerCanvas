@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon main/index.js"
+    "start": "node main/index.js",
+    "dev": "nodemon main/index.js",
+    "prod": "node main/index.js",
+    "install-deps": "npm install"
   },
   "author": "",
   "license": "ISC",
